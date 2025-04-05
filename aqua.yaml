@@ -1,0 +1,8 @@
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/aquaproj/aqua/main/json-schema/aqua-yaml.json
+registries:
+- type: standard
+  ref: v4.333.3 # renovate: depName=aquaproj/aqua-registry
+packages:
+- name: go-task/task@v3.42.1
+- name: astral-sh/uv@0.6.11

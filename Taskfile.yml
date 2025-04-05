@@ -1,0 +1,10 @@
+version: '3'
+
+tasks:
+  run-streamlit:
+    cmds:
+      - uv run streamlit run human_mcp/streamlit_app.py
+    silent: true
+  install-mcp:
+    cmds:
+      - uv pip install -e .

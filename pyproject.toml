@@ -1,0 +1,11 @@
+[project]
+name = "human-mcp"
+version = "0.1.0"
+description = "A joke MCP server powered by a real human via Streamlit UI."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anyio>=4.9.0",
+    "mcp[cli]>=1.6.0",
+    "streamlit>=1.44.0",
+]
